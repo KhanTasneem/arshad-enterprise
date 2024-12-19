@@ -18,9 +18,7 @@
   /* color: white; */
   font-weight: bold;
 }
-.desktop-banner .desktop-content .MuiButtonBase-root.MuiButton-root{
-  text-transform: capitalize;
-}
+
 .main-container{
   width: 85%;
   margin: 0 auto;
@@ -29,6 +27,29 @@
   display: flex;
   gap: 24px;
 }
-.MuiButton-contained{
+.MuiButtonBase-root.MuiButton-root {
+  text-transform: capitalize;
+  margin-top: 8px; 
+  margin-bottom: 8px; 
+}
+.MuiButtonBase-root.MuiButton-contained{
   color: "#FFF"
+}
+.stat-banner{
+  background-image: url("./assets/images/statsBanner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.stat-item-container *{
+  color: #FFF;
+}
+.header-section a{
+  text-decoration: none;
+  color: #FFF;
+  display: flex;
+  gap: 8px;
 }

@@ -23,22 +23,22 @@ const theme = createTheme({
     }, */
   },
 });
-const App=()=> {
+const App = () => {
 
   return (
     <>
-    
-    <ThemeProvider theme={theme}>
 
-    <CssBaseline/>
-    <BrowserRouter>
-    <Header/>
-    <SubHeader/>
-    <Routes>
-    <Route index element={<HomePage/>} />
-    </Routes>
-  </BrowserRouter>
-    </ThemeProvider>
+      <ThemeProvider theme={theme}>
+
+        <CssBaseline />
+        <BrowserRouter>
+          <Header />
+          <SubHeader />
+          <Routes>
+            <Route index element={<HomePage />} />
+          </Routes>
+        </BrowserRouter>
+      </ThemeProvider>
     </>
   )
 }
